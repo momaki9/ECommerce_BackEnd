@@ -32,7 +32,7 @@ A user can clone the files found in this repo then install the required node pac
 
 In terminal and after installing the necessary node packages (as outlined above), navigate to the folder and then run the command `node index.js`. A series of prompts should appear and the user can select using the arrow keys.Reference the video linked below.
 
-[Walkthrough Video](#)
+[Walkthrough Video](https://drive.google.com/file/d/1eO_pAhiyIFrfLsRmNwQ4j-1n-hsitpx2/view?usp=sharing)
 
 
 ## License
