@@ -10,7 +10,9 @@
 ---
 ---
 
-## ![Screenshot]()
+## ![Screenshot](./assets/image/npm_start.png)
+## ![Screenshot](./assets/image/requests.gif)
+## ![Screenshot](./assets/image/requests_2.gif)
 
 ---
 
@@ -25,12 +27,12 @@
 ---
 ## Installation
 
-A user can clone the files found in this repo then install the required node packages by running `npm i` in the command-line application. Be sure to supply your own `MySQL` password in the `index.js` file. Next, run the SQL commands found in `schema.sql` and `seeds.sql`. Finally, navigate to the cloned folder in terminal and run the command `node index.js`.
+A user can clone the files found in this repo then install the required node packages by running `npm i` in the command-line application. Use the `schema.sql` file in the db folder to create the database using `MySQL` shell commands. Create and use a `.env` file to store the MySQL username and password. Refer to the file `.env.EXAMPLE` on how to store those sensitive data. Next, seed the database by running the command `node index.js` on the file located in the seeds folder, or by simplying running `npm run seed`. Finally, run the command `node server.js` in terminal and perform the requests (GET, PUT, POST, DELETE) on the appropriate route.
 
 
 ## Usage
 
-In terminal and after installing the necessary node packages (as outlined above), navigate to the folder and then run the command `node index.js`. A series of prompts should appear and the user can select using the arrow keys.Reference the video linked below.
+In terminal and after installing the necessary node packages and creating/seeding the database (as outlined above), open Insomnia Core and perform the different possible requests on one of the three routes (api/categories, api/tags, api/products). For additional information, please reference the video linked below.
 
 [Walkthrough Video](https://drive.google.com/file/d/1eO_pAhiyIFrfLsRmNwQ4j-1n-hsitpx2/view?usp=sharing)
 
